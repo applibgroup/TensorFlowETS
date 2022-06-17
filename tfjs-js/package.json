@@ -1,0 +1,14 @@
+{
+  "name": "@ohos/tfjs-js",
+  "description": "An open-source machine learning framework.",
+  "ohos": {
+    "org": ""
+  },
+  "version": "1.0.0",
+  "main": "src/tf.js",
+  "types": "",
+  "repository": {},
+  "license": "ISC",
+  "dependencies": {
+  }
+}

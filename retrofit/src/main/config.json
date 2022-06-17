@@ -1,0 +1,24 @@
+{
+  "app": {
+    "bundleName": "cn.openharmony.retrofitohos",
+    "vendor": "openharmony",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "cn.openharmony.retrofitohos",
+    "deviceType": [
+      "phone",
+      "tablet"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "retrofit",
+      "moduleType": "har"
+    },
+    "uiSyntax": "ets"
+  }
+}

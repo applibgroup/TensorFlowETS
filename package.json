@@ -1,0 +1,30 @@
+{
+  "name": "tensorflowets",
+  "version": "1.0.0",
+  "ohos": {
+    "org": "huawei",
+    "buildTool": "hvigor",
+    "directoryLevel": "project"
+  },
+  "description": "example description",
+  "repository": {},
+  "license": "ISC",
+  "dependencies": {
+    "hypium": "^1.0.0",
+    "@ohos/hvigor": "1.0.6",
+    "@ohos/hvigor-ohos-plugin": "1.0.6",
+    "@ohos/tfjs-core": "file:tfjs-core",
+    "@ohos/tfjs": "file:tfjs",
+    "@ohos/tfjs-layers": "file:tfjs-layers",
+    "@ohos/tfjs-data": "file:tfjs-data",
+    "@ohos/tfjs-converter": "file:tfjs-converter",
+    "@ohos/tfjs-js": "file:tfjs-js",
+    "@ohos/tfjs-backend-cpu": "file:tfjs-backend-cpu",
+    "seedrandom": "~2.4.3",
+    "long": "5.2.0",
+    "node-fetch": "~2.6.1",
+    "buffer": "^5.6.0",
+    "@ohos/libutil": "file:libutil",
+    "@ohos/retrofit": "file:retrofit"
+  }
+}

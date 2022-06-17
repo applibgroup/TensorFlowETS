@@ -1,0 +1,14 @@
+{
+  "name": "@ohos/tfjs-core",
+  "description": "Hardware-accelerated JavaScript library for machine intelligence",
+  "ohos": {
+    "org": ""
+  },
+  "version": "1.0.0",
+  "main": "src/index.ets",
+  "types": "",
+  "repository": {},
+  "license": "ISC",
+  "dependencies": {
+  }
+}

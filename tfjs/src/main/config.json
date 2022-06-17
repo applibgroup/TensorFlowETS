@@ -1,0 +1,24 @@
+{
+  "app": {
+    "bundleName": "com.ohos.framework.tfets",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.tfjs",
+    "deviceType": [
+      "phone",
+      "tablet"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "tfjs",
+      "moduleType": "har"
+    },
+    "uiSyntax": "ets"
+  }
+}

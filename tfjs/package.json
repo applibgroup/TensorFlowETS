@@ -1,0 +1,18 @@
+{
+  "name": "@ohos/tfjs",
+  "description": "An open-source machine learning framework.",
+  "ohos": {
+    "org": ""
+  },
+  "version": "1.0.0",
+  "main": "src/index.ets",
+  "types": "",
+  "repository": {},
+  "license": "ISC",
+  "dependencies": {
+    "@ohos/tfjs-core": "file:../tfjs-core",
+    "@ohos/tfjs-layers": "file:../tfjs-layers",
+    "@ohos/tfjs-data": "file:../tfjs-data",
+    "@ohos/tfjs-converter": "file:../tfjs-converter"
+  }
+}

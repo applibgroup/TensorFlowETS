@@ -1,0 +1,14 @@
+{
+  "name": "@ohos/libutil",
+  "description": "An OpenHarmony Util library.",
+  "ohos": {
+    "org": ""
+  },
+  "version": "1.0.0",
+  "main": "index.ets",
+  "types": "",
+  "repository": {},
+  "license": "ISC",
+  "dependencies": {
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@ohos/tfjs-backend-cpu",
+  "description": "Vanilla JavaScript backend for TensorFlow.js",
+  "ohos": {
+    "org": ""
+  },
+  "version": "1.0.0",
+  "main": "src/index.ets",
+  "types": "",
+  "repository": {},
+  "license": "ISC",
+  "dependencies": {
+    "@types/seedrandom": "2.4.27",
+    "@ohos/tfjs-core": "file:../tfjs-core"
+  }
+}
