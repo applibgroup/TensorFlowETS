@@ -1,0 +1,27 @@
+{
+  "name": "@ohos/retrofit",
+  "keywords": [
+    "retrofit",
+    "OpenHarmony",
+    "httpclient",
+    "request",
+    "response"
+  ],
+  "description": "retrofit lib for OpenHarmony os",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "ohos": {
+    "org": "opensource"
+  },
+  "version": "1.0.0",
+  "main": "index.ets",
+  "author": "ohos_tpc",
+  "types": "",
+  "repository": "https://gitee.com/openharmony-tpc/retrofit",
+  "license": "Apache License 2.0",
+  "devDependencies": {},
+  "dependencies": {
+    "@ohos/httpclient": "^1.0.1"
+  }
+}

@@ -1,0 +1,7 @@
+CompileFlags:
+  Add: [-Wunreachable-code,-Wunused-variable]
+Diagnostics:
+  ClangTidy:
+    Add: [misc-unused-parameters]
+    Remove: []
+

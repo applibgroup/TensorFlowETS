@@ -1,0 +1,17 @@
+{
+  "name": "@ohos/tfjs-data",
+  "description": "TensorFlow layers API in JavaScript",
+  "ohos": {
+    "org": ""
+  },
+  "version": "1.0.0",
+  "main": "src/index.ets",
+  "types": "",
+  "repository": {},
+  "license": "ISC",
+  "dependencies": {
+    "@ohos/tfjs-core": "file:../tfjs-core",
+    "seedrandom": "~2.4.3",
+    "long": "5.2.0"
+  }
+}
