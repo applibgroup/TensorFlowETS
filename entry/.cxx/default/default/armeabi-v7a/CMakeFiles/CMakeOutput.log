@@ -4622,3 +4622,1191 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+The target system is: OHOS - 1 - arm
+The host system is: Windows - 10.0.22000 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/bin/clang.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is Clang, found in "C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/3.16.5/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/bin/clang++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is Clang, found in "C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/3.16.5/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\build-tools\cmake\bin\ninja.exe cmTC_435fc && [1/2] Building C object CMakeFiles/cmTC_435fc.dir/testCCompiler.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_435fc
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\build-tools\cmake\bin\ninja.exe cmTC_66dd6 && [1/2] Building C object CMakeFiles/cmTC_66dd6.dir/CMakeCCompilerABI.c.o
+OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin
+Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7, version 7.0
+clang: warning: argument unused during compilation: '--gcc-toolchain=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm' [-Wunused-command-line-argument]
+ (in-process)
+ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\clang.exe" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mframe-pointer=all -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1" -D __MUSL__ -isysroot C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -internal-isystem "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\include" -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include -Wformat -Werror=format-security -fdebug-compilation-dir "C:\\Users\\bhuva\\Desktop\\AppLib\\TensorFlowETS\\entry\\.cxx\\default\\default\\armeabi-v7a\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_66dd6.dir/CMakeCCompilerABI.c.o -x c C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/build-tools/cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+clang -cc1 version 10.0.1 based upon LLVM 10.0.1 default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\lib\clang\10.0.1\include
+ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos
+ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include
+End of search list.
+[2/2] Linking C executable cmTC_66dd6
+OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin
+Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7, version 7.0
+ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\ld.lld" --sysroot=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_66dd6 "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o" "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\" --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_66dd6.dir/CMakeCCompilerABI.c.o "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a -lc "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o"
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include]
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos]
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+  end of search list found
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include]
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos]
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+  implicit include dirs: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\build-tools\cmake\bin\ninja.exe cmTC_66dd6 && [1/2] Building C object CMakeFiles/cmTC_66dd6.dir/CMakeCCompilerABI.c.o]
+  ignore line: [OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin]
+  ignore line: [Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7  version 7.0]
+  ignore line: [clang: warning: argument unused during compilation: '--gcc-toolchain=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm' [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\clang.exe" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mframe-pointer=all -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1" -D __MUSL__ -isysroot C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -internal-isystem "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\include" -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include -Wformat -Werror=format-security -fdebug-compilation-dir "C:\\Users\\bhuva\\Desktop\\AppLib\\TensorFlowETS\\entry\\.cxx\\default\\default\\armeabi-v7a\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_66dd6.dir/CMakeCCompilerABI.c.o -x c C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/build-tools/cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 10.0.1 based upon LLVM 10.0.1 default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\lib\clang\10.0.1\include]
+  ignore line: [ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos]
+  ignore line: [ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_66dd6]
+  ignore line: [OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin]
+  ignore line: [Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7  version 7.0]
+  link line: [ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\ld.lld" --sysroot=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_66dd6 "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o" "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\" --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_66dd6.dir/CMakeCCompilerABI.c.o "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a -lc "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o"]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\ld.lld] ==> ignore
+    arg [--sysroot=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-arm.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_66dd6] ==> ignore
+    arg [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o] ==> ignore
+    arg [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o] ==> ignore
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o] ==> ignore
+    arg [-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos] ==> dir [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos]
+    arg [-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib;-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos;-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos;--build-id=sha1] ==> dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib;-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos;-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos;--build-id=sha1]
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [-lunwind] ==> lib [unwind]
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_66dd6.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a] ==> lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-lc] ==> lib [c]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a] ==> lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o] ==> ignore
+    arg [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o] ==> ignore
+  remove lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+  remove lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+  collapse library dir [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/lib/arm-linux-ohos]
+  collapse library dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib]
+  collapse library dir [-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/arm-linux-ohos]
+  collapse library dir [-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib/arm-linux-ohos]
+  collapse library dir [--build-id=sha1] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/--build-id=sha1]
+  implicit libs: [unwind;-l:libunwind.a;c;-l:libunwind.a]
+  implicit dirs: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/lib/arm-linux-ohos;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/arm-linux-ohos;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib/arm-linux-ohos;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/--build-id=sha1]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\build-tools\cmake\bin\ninja.exe cmTC_54f80 && [1/2] Building CXX object CMakeFiles/cmTC_54f80.dir/testCXXCompiler.cxx.o
+clang++: warning: argument unused during compilation: '--gcc-toolchain=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm' [-Wunused-command-line-argument]
+[2/2] Linking CXX executable cmTC_54f80
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\build-tools\cmake\bin\ninja.exe cmTC_0eeb8 && [1/2] Building CXX object CMakeFiles/cmTC_0eeb8.dir/CMakeCXXCompilerABI.cpp.o
+OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin
+Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7, version 7.0
+clang++: warning: argument unused during compilation: '--gcc-toolchain=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm' [-Wunused-command-line-argument]
+ (in-process)
+ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\clang++.exe" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mframe-pointer=all -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1" -D __MUSL__ -isysroot C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -internal-isystem "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\include\\c++\\v1" -internal-isystem "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\include" -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include -Wformat -Werror=format-security -fdeprecated-macro -fdebug-compilation-dir "C:\\Users\\bhuva\\Desktop\\AppLib\\TensorFlowETS\\entry\\.cxx\\default\\default\\armeabi-v7a\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_0eeb8.dir/CMakeCXXCompilerABI.cpp.o -x c++ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/build-tools/cmake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 10.0.1 based upon LLVM 10.0.1 default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin\..\include\c++\v1
+ C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\lib\clang\10.0.1\include
+ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos
+ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include
+End of search list.
+[2/2] Linking CXX executable cmTC_0eeb8
+OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin
+Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7, version 7.0
+ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\ld.lld" --sysroot=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_0eeb8 "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o" "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\c++\\" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\" --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_0eeb8.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lc++abi -lunwind -lm "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a -lc "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o"
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/bin/../include/c++/v1]
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include]
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos]
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+  end of search list found
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/bin/../include/c++/v1] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/include/c++/v1]
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include]
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos]
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+  implicit include dirs: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/include/c++/v1;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\build-tools\cmake\bin\ninja.exe cmTC_0eeb8 && [1/2] Building CXX object CMakeFiles/cmTC_0eeb8.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin]
+  ignore line: [Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7  version 7.0]
+  ignore line: [clang++: warning: argument unused during compilation: '--gcc-toolchain=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm' [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\clang++.exe" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mframe-pointer=all -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1" -D __MUSL__ -isysroot C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -internal-isystem "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\include\\c++\\v1" -internal-isystem "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\include" -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include -Wformat -Werror=format-security -fdeprecated-macro -fdebug-compilation-dir "C:\\Users\\bhuva\\Desktop\\AppLib\\TensorFlowETS\\entry\\.cxx\\default\\default\\armeabi-v7a\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_0eeb8.dir/CMakeCXXCompilerABI.cpp.o -x c++ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/build-tools/cmake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 10.0.1 based upon LLVM 10.0.1 default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin\..\include\c++\v1]
+  ignore line: [ C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\lib\clang\10.0.1\include]
+  ignore line: [ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos]
+  ignore line: [ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_0eeb8]
+  ignore line: [OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin]
+  ignore line: [Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7  version 7.0]
+  link line: [ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\ld.lld" --sysroot=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_0eeb8 "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o" "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\c++\\" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\" --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_0eeb8.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lc++abi -lunwind -lm "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a -lc "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o"]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\ld.lld] ==> ignore
+    arg [--sysroot=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-arm.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_0eeb8] ==> ignore
+    arg [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o] ==> ignore
+    arg [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o] ==> ignore
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o] ==> ignore
+    arg [-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\c++;-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos] ==> dir [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\c++;-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos]
+    arg [-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib;-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos;-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos;--build-id=sha1] ==> dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib;-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos;-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos;--build-id=sha1]
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [-lunwind] ==> lib [unwind]
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_0eeb8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lc++abi] ==> lib [c++abi]
+    arg [-lunwind] ==> lib [unwind]
+    arg [-lm] ==> lib [m]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a] ==> lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-lc] ==> lib [c]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a] ==> lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o] ==> ignore
+    arg [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o] ==> ignore
+  remove lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+  remove lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+  collapse library dir [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\c++] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/arm-linux-ohos/c++]
+  collapse library dir [-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/lib/arm-linux-ohos]
+  collapse library dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib]
+  collapse library dir [-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/arm-linux-ohos]
+  collapse library dir [-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib/arm-linux-ohos]
+  collapse library dir [--build-id=sha1] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/--build-id=sha1]
+  implicit libs: [unwind;c++;c++abi;unwind;m;-l:libunwind.a;c;-l:libunwind.a]
+  implicit dirs: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/arm-linux-ohos/c++;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/lib/arm-linux-ohos;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/arm-linux-ohos;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib/arm-linux-ohos;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/--build-id=sha1]
+  implicit fwks: []
+
+
+The target system is: OHOS - 1 - arm
+The host system is: Windows - 10.0.22000 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/bin/clang.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is Clang, found in "C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/3.16.5/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/bin/clang++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is Clang, found in "C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/3.16.5/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\build-tools\cmake\bin\ninja.exe cmTC_c1501 && [1/2] Building C object CMakeFiles/cmTC_c1501.dir/testCCompiler.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_c1501
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\build-tools\cmake\bin\ninja.exe cmTC_4075c && [1/2] Building C object CMakeFiles/cmTC_4075c.dir/CMakeCCompilerABI.c.o
+OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin
+Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7, version 7.0
+clang: warning: argument unused during compilation: '--gcc-toolchain=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm' [-Wunused-command-line-argument]
+ (in-process)
+ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\clang.exe" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mframe-pointer=all -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1" -D __MUSL__ -isysroot C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -internal-isystem "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\include" -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include -Wformat -Werror=format-security -fdebug-compilation-dir "C:\\Users\\bhuva\\Desktop\\AppLib\\TensorFlowETS\\entry\\.cxx\\default\\default\\armeabi-v7a\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_4075c.dir/CMakeCCompilerABI.c.o -x c C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/build-tools/cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+clang -cc1 version 10.0.1 based upon LLVM 10.0.1 default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\lib\clang\10.0.1\include
+ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos
+ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include
+End of search list.
+[2/2] Linking C executable cmTC_4075c
+OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin
+Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7, version 7.0
+ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\ld.lld" --sysroot=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_4075c "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o" "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\" --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_4075c.dir/CMakeCCompilerABI.c.o "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a -lc "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o"
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include]
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos]
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+  end of search list found
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include]
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos]
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+  implicit include dirs: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\build-tools\cmake\bin\ninja.exe cmTC_4075c && [1/2] Building C object CMakeFiles/cmTC_4075c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin]
+  ignore line: [Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7  version 7.0]
+  ignore line: [clang: warning: argument unused during compilation: '--gcc-toolchain=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm' [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\clang.exe" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mframe-pointer=all -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1" -D __MUSL__ -isysroot C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -internal-isystem "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\include" -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include -Wformat -Werror=format-security -fdebug-compilation-dir "C:\\Users\\bhuva\\Desktop\\AppLib\\TensorFlowETS\\entry\\.cxx\\default\\default\\armeabi-v7a\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_4075c.dir/CMakeCCompilerABI.c.o -x c C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/build-tools/cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 10.0.1 based upon LLVM 10.0.1 default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\lib\clang\10.0.1\include]
+  ignore line: [ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos]
+  ignore line: [ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_4075c]
+  ignore line: [OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin]
+  ignore line: [Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7  version 7.0]
+  link line: [ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\ld.lld" --sysroot=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_4075c "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o" "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\" --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_4075c.dir/CMakeCCompilerABI.c.o "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a -lc "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o"]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\ld.lld] ==> ignore
+    arg [--sysroot=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-arm.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_4075c] ==> ignore
+    arg [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o] ==> ignore
+    arg [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o] ==> ignore
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o] ==> ignore
+    arg [-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos] ==> dir [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos]
+    arg [-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib;-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos;-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos;--build-id=sha1] ==> dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib;-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos;-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos;--build-id=sha1]
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [-lunwind] ==> lib [unwind]
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_4075c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a] ==> lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-lc] ==> lib [c]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a] ==> lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o] ==> ignore
+    arg [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o] ==> ignore
+  remove lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+  remove lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+  collapse library dir [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/lib/arm-linux-ohos]
+  collapse library dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib]
+  collapse library dir [-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/arm-linux-ohos]
+  collapse library dir [-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib/arm-linux-ohos]
+  collapse library dir [--build-id=sha1] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/--build-id=sha1]
+  implicit libs: [unwind;-l:libunwind.a;c;-l:libunwind.a]
+  implicit dirs: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/lib/arm-linux-ohos;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/arm-linux-ohos;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib/arm-linux-ohos;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/--build-id=sha1]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\build-tools\cmake\bin\ninja.exe cmTC_3d379 && [1/2] Building CXX object CMakeFiles/cmTC_3d379.dir/testCXXCompiler.cxx.o
+clang++: warning: argument unused during compilation: '--gcc-toolchain=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm' [-Wunused-command-line-argument]
+[2/2] Linking CXX executable cmTC_3d379
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\build-tools\cmake\bin\ninja.exe cmTC_de7df && [1/2] Building CXX object CMakeFiles/cmTC_de7df.dir/CMakeCXXCompilerABI.cpp.o
+OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin
+Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7, version 7.0
+clang++: warning: argument unused during compilation: '--gcc-toolchain=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm' [-Wunused-command-line-argument]
+ (in-process)
+ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\clang++.exe" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mframe-pointer=all -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1" -D __MUSL__ -isysroot C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -internal-isystem "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\include\\c++\\v1" -internal-isystem "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\include" -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include -Wformat -Werror=format-security -fdeprecated-macro -fdebug-compilation-dir "C:\\Users\\bhuva\\Desktop\\AppLib\\TensorFlowETS\\entry\\.cxx\\default\\default\\armeabi-v7a\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_de7df.dir/CMakeCXXCompilerABI.cpp.o -x c++ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/build-tools/cmake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 10.0.1 based upon LLVM 10.0.1 default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin\..\include\c++\v1
+ C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\lib\clang\10.0.1\include
+ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos
+ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include
+End of search list.
+[2/2] Linking CXX executable cmTC_de7df
+OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin
+Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7, version 7.0
+ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\ld.lld" --sysroot=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_de7df "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o" "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\c++\\" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\" --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_de7df.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lc++abi -lunwind -lm "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a -lc "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o"
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/bin/../include/c++/v1]
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include]
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos]
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+  end of search list found
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/bin/../include/c++/v1] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/include/c++/v1]
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include]
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos]
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+  implicit include dirs: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/include/c++/v1;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\build-tools\cmake\bin\ninja.exe cmTC_de7df && [1/2] Building CXX object CMakeFiles/cmTC_de7df.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin]
+  ignore line: [Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7  version 7.0]
+  ignore line: [clang++: warning: argument unused during compilation: '--gcc-toolchain=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm' [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\clang++.exe" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mframe-pointer=all -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1" -D __MUSL__ -isysroot C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -internal-isystem "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\include\\c++\\v1" -internal-isystem "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\include" -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include -Wformat -Werror=format-security -fdeprecated-macro -fdebug-compilation-dir "C:\\Users\\bhuva\\Desktop\\AppLib\\TensorFlowETS\\entry\\.cxx\\default\\default\\armeabi-v7a\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_de7df.dir/CMakeCXXCompilerABI.cpp.o -x c++ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/build-tools/cmake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 10.0.1 based upon LLVM 10.0.1 default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin\..\include\c++\v1]
+  ignore line: [ C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\lib\clang\10.0.1\include]
+  ignore line: [ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos]
+  ignore line: [ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_de7df]
+  ignore line: [OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin]
+  ignore line: [Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7  version 7.0]
+  link line: [ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\ld.lld" --sysroot=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_de7df "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o" "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\c++\\" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\" --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_de7df.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lc++abi -lunwind -lm "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a -lc "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o"]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\ld.lld] ==> ignore
+    arg [--sysroot=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-arm.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_de7df] ==> ignore
+    arg [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o] ==> ignore
+    arg [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o] ==> ignore
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o] ==> ignore
+    arg [-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\c++;-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos] ==> dir [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\c++;-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos]
+    arg [-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib;-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos;-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos;--build-id=sha1] ==> dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib;-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos;-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos;--build-id=sha1]
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [-lunwind] ==> lib [unwind]
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_de7df.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lc++abi] ==> lib [c++abi]
+    arg [-lunwind] ==> lib [unwind]
+    arg [-lm] ==> lib [m]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a] ==> lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-lc] ==> lib [c]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a] ==> lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o] ==> ignore
+    arg [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o] ==> ignore
+  remove lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+  remove lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+  collapse library dir [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\c++] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/arm-linux-ohos/c++]
+  collapse library dir [-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/lib/arm-linux-ohos]
+  collapse library dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib]
+  collapse library dir [-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/arm-linux-ohos]
+  collapse library dir [-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib/arm-linux-ohos]
+  collapse library dir [--build-id=sha1] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/--build-id=sha1]
+  implicit libs: [unwind;c++;c++abi;unwind;m;-l:libunwind.a;c;-l:libunwind.a]
+  implicit dirs: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/arm-linux-ohos/c++;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/lib/arm-linux-ohos;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/arm-linux-ohos;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib/arm-linux-ohos;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/--build-id=sha1]
+  implicit fwks: []
+
+
+The target system is: OHOS - 1 - arm
+The host system is: Windows - 10.0.22000 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/bin/clang.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is Clang, found in "C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/3.16.5/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/bin/clang++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is Clang, found in "C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/3.16.5/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\build-tools\cmake\bin\ninja.exe cmTC_0f99b && [1/2] Building C object CMakeFiles/cmTC_0f99b.dir/testCCompiler.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_0f99b
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\build-tools\cmake\bin\ninja.exe cmTC_0a3e6 && [1/2] Building C object CMakeFiles/cmTC_0a3e6.dir/CMakeCCompilerABI.c.o
+OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin
+Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7, version 7.0
+clang: warning: argument unused during compilation: '--gcc-toolchain=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm' [-Wunused-command-line-argument]
+ (in-process)
+ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\clang.exe" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mframe-pointer=all -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1" -D __MUSL__ -isysroot C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -internal-isystem "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\include" -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include -Wformat -Werror=format-security -fdebug-compilation-dir "C:\\Users\\bhuva\\Desktop\\AppLib\\TensorFlowETS\\entry\\.cxx\\default\\default\\armeabi-v7a\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_0a3e6.dir/CMakeCCompilerABI.c.o -x c C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/build-tools/cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+clang -cc1 version 10.0.1 based upon LLVM 10.0.1 default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\lib\clang\10.0.1\include
+ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos
+ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include
+End of search list.
+[2/2] Linking C executable cmTC_0a3e6
+OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin
+Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7, version 7.0
+ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\ld.lld" --sysroot=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_0a3e6 "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o" "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\" --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_0a3e6.dir/CMakeCCompilerABI.c.o "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a -lc "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o"
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include]
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos]
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+  end of search list found
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include]
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos]
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+  implicit include dirs: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\build-tools\cmake\bin\ninja.exe cmTC_0a3e6 && [1/2] Building C object CMakeFiles/cmTC_0a3e6.dir/CMakeCCompilerABI.c.o]
+  ignore line: [OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin]
+  ignore line: [Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7  version 7.0]
+  ignore line: [clang: warning: argument unused during compilation: '--gcc-toolchain=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm' [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\clang.exe" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mframe-pointer=all -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1" -D __MUSL__ -isysroot C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -internal-isystem "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\include" -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include -Wformat -Werror=format-security -fdebug-compilation-dir "C:\\Users\\bhuva\\Desktop\\AppLib\\TensorFlowETS\\entry\\.cxx\\default\\default\\armeabi-v7a\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_0a3e6.dir/CMakeCCompilerABI.c.o -x c C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/build-tools/cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 10.0.1 based upon LLVM 10.0.1 default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\lib\clang\10.0.1\include]
+  ignore line: [ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos]
+  ignore line: [ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_0a3e6]
+  ignore line: [OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin]
+  ignore line: [Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7  version 7.0]
+  link line: [ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\ld.lld" --sysroot=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_0a3e6 "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o" "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\" --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_0a3e6.dir/CMakeCCompilerABI.c.o "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a -lc "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o"]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\ld.lld] ==> ignore
+    arg [--sysroot=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-arm.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_0a3e6] ==> ignore
+    arg [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o] ==> ignore
+    arg [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o] ==> ignore
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o] ==> ignore
+    arg [-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos] ==> dir [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos]
+    arg [-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib;-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos;-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos;--build-id=sha1] ==> dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib;-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos;-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos;--build-id=sha1]
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [-lunwind] ==> lib [unwind]
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_0a3e6.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a] ==> lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-lc] ==> lib [c]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a] ==> lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o] ==> ignore
+    arg [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o] ==> ignore
+  remove lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+  remove lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+  collapse library dir [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/lib/arm-linux-ohos]
+  collapse library dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib]
+  collapse library dir [-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/arm-linux-ohos]
+  collapse library dir [-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib/arm-linux-ohos]
+  collapse library dir [--build-id=sha1] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/--build-id=sha1]
+  implicit libs: [unwind;-l:libunwind.a;c;-l:libunwind.a]
+  implicit dirs: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/lib/arm-linux-ohos;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/arm-linux-ohos;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib/arm-linux-ohos;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/--build-id=sha1]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\build-tools\cmake\bin\ninja.exe cmTC_7d208 && [1/2] Building CXX object CMakeFiles/cmTC_7d208.dir/testCXXCompiler.cxx.o
+clang++: warning: argument unused during compilation: '--gcc-toolchain=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm' [-Wunused-command-line-argument]
+[2/2] Linking CXX executable cmTC_7d208
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\build-tools\cmake\bin\ninja.exe cmTC_41ebc && [1/2] Building CXX object CMakeFiles/cmTC_41ebc.dir/CMakeCXXCompilerABI.cpp.o
+OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin
+Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7, version 7.0
+clang++: warning: argument unused during compilation: '--gcc-toolchain=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm' [-Wunused-command-line-argument]
+ (in-process)
+ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\clang++.exe" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mframe-pointer=all -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1" -D __MUSL__ -isysroot C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -internal-isystem "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\include\\c++\\v1" -internal-isystem "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\include" -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include -Wformat -Werror=format-security -fdeprecated-macro -fdebug-compilation-dir "C:\\Users\\bhuva\\Desktop\\AppLib\\TensorFlowETS\\entry\\.cxx\\default\\default\\armeabi-v7a\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_41ebc.dir/CMakeCXXCompilerABI.cpp.o -x c++ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/build-tools/cmake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 10.0.1 based upon LLVM 10.0.1 default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin\..\include\c++\v1
+ C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\lib\clang\10.0.1\include
+ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos
+ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include
+End of search list.
+[2/2] Linking CXX executable cmTC_41ebc
+OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin
+Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7, version 7.0
+ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\ld.lld" --sysroot=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_41ebc "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o" "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\c++\\" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\" --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_41ebc.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lc++abi -lunwind -lm "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a -lc "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o"
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/bin/../include/c++/v1]
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include]
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos]
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+  end of search list found
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/bin/../include/c++/v1] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/include/c++/v1]
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include]
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos]
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+  implicit include dirs: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/include/c++/v1;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\build-tools\cmake\bin\ninja.exe cmTC_41ebc && [1/2] Building CXX object CMakeFiles/cmTC_41ebc.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin]
+  ignore line: [Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7  version 7.0]
+  ignore line: [clang++: warning: argument unused during compilation: '--gcc-toolchain=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm' [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\clang++.exe" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mframe-pointer=all -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1" -D __MUSL__ -isysroot C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -internal-isystem "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\include\\c++\\v1" -internal-isystem "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\include" -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include -Wformat -Werror=format-security -fdeprecated-macro -fdebug-compilation-dir "C:\\Users\\bhuva\\Desktop\\AppLib\\TensorFlowETS\\entry\\.cxx\\default\\default\\armeabi-v7a\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_41ebc.dir/CMakeCXXCompilerABI.cpp.o -x c++ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/build-tools/cmake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 10.0.1 based upon LLVM 10.0.1 default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin\..\include\c++\v1]
+  ignore line: [ C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\lib\clang\10.0.1\include]
+  ignore line: [ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos]
+  ignore line: [ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_41ebc]
+  ignore line: [OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin]
+  ignore line: [Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7  version 7.0]
+  link line: [ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\ld.lld" --sysroot=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_41ebc "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o" "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\c++\\" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\" --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_41ebc.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lc++abi -lunwind -lm "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a -lc "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o"]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\ld.lld] ==> ignore
+    arg [--sysroot=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-arm.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_41ebc] ==> ignore
+    arg [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o] ==> ignore
+    arg [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o] ==> ignore
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o] ==> ignore
+    arg [-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\c++;-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos] ==> dir [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\c++;-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos]
+    arg [-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib;-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos;-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos;--build-id=sha1] ==> dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib;-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos;-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos;--build-id=sha1]
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [-lunwind] ==> lib [unwind]
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_41ebc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lc++abi] ==> lib [c++abi]
+    arg [-lunwind] ==> lib [unwind]
+    arg [-lm] ==> lib [m]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a] ==> lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-lc] ==> lib [c]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a] ==> lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o] ==> ignore
+    arg [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o] ==> ignore
+  remove lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+  remove lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+  collapse library dir [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\c++] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/arm-linux-ohos/c++]
+  collapse library dir [-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/lib/arm-linux-ohos]
+  collapse library dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib]
+  collapse library dir [-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/arm-linux-ohos]
+  collapse library dir [-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib/arm-linux-ohos]
+  collapse library dir [--build-id=sha1] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/--build-id=sha1]
+  implicit libs: [unwind;c++;c++abi;unwind;m;-l:libunwind.a;c;-l:libunwind.a]
+  implicit dirs: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/arm-linux-ohos/c++;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/lib/arm-linux-ohos;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/arm-linux-ohos;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib/arm-linux-ohos;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/--build-id=sha1]
+  implicit fwks: []
+
+
+The target system is: OHOS - 1 - arm
+The host system is: Windows - 10.0.22000 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/bin/clang.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is Clang, found in "C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/3.16.5/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/bin/clang++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is Clang, found in "C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/3.16.5/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\build-tools\cmake\bin\ninja.exe cmTC_d5518 && [1/2] Building C object CMakeFiles/cmTC_d5518.dir/testCCompiler.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_d5518
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\build-tools\cmake\bin\ninja.exe cmTC_308d6 && [1/2] Building C object CMakeFiles/cmTC_308d6.dir/CMakeCCompilerABI.c.o
+OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin
+Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7, version 7.0
+clang: warning: argument unused during compilation: '--gcc-toolchain=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm' [-Wunused-command-line-argument]
+ (in-process)
+ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\clang.exe" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mframe-pointer=all -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1" -D __MUSL__ -isysroot C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -internal-isystem "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\include" -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include -Wformat -Werror=format-security -fdebug-compilation-dir "C:\\Users\\bhuva\\Desktop\\AppLib\\TensorFlowETS\\entry\\.cxx\\default\\default\\armeabi-v7a\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_308d6.dir/CMakeCCompilerABI.c.o -x c C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/build-tools/cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+clang -cc1 version 10.0.1 based upon LLVM 10.0.1 default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\lib\clang\10.0.1\include
+ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos
+ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include
+End of search list.
+[2/2] Linking C executable cmTC_308d6
+OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin
+Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7, version 7.0
+ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\ld.lld" --sysroot=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_308d6 "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o" "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\" --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_308d6.dir/CMakeCCompilerABI.c.o "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a -lc "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o"
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include]
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos]
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+  end of search list found
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include]
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos]
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+  implicit include dirs: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\build-tools\cmake\bin\ninja.exe cmTC_308d6 && [1/2] Building C object CMakeFiles/cmTC_308d6.dir/CMakeCCompilerABI.c.o]
+  ignore line: [OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin]
+  ignore line: [Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7  version 7.0]
+  ignore line: [clang: warning: argument unused during compilation: '--gcc-toolchain=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm' [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\clang.exe" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mframe-pointer=all -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1" -D __MUSL__ -isysroot C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -internal-isystem "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\include" -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include -Wformat -Werror=format-security -fdebug-compilation-dir "C:\\Users\\bhuva\\Desktop\\AppLib\\TensorFlowETS\\entry\\.cxx\\default\\default\\armeabi-v7a\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_308d6.dir/CMakeCCompilerABI.c.o -x c C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/build-tools/cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 10.0.1 based upon LLVM 10.0.1 default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\lib\clang\10.0.1\include]
+  ignore line: [ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos]
+  ignore line: [ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_308d6]
+  ignore line: [OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin]
+  ignore line: [Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7  version 7.0]
+  link line: [ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\ld.lld" --sysroot=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_308d6 "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o" "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\" --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_308d6.dir/CMakeCCompilerABI.c.o "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a -lc "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o"]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\ld.lld] ==> ignore
+    arg [--sysroot=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-arm.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_308d6] ==> ignore
+    arg [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o] ==> ignore
+    arg [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o] ==> ignore
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o] ==> ignore
+    arg [-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos] ==> dir [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos]
+    arg [-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib;-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos;-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos;--build-id=sha1] ==> dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib;-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos;-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos;--build-id=sha1]
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [-lunwind] ==> lib [unwind]
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_308d6.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a] ==> lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-lc] ==> lib [c]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a] ==> lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o] ==> ignore
+    arg [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o] ==> ignore
+  remove lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+  remove lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+  collapse library dir [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/lib/arm-linux-ohos]
+  collapse library dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib]
+  collapse library dir [-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/arm-linux-ohos]
+  collapse library dir [-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib/arm-linux-ohos]
+  collapse library dir [--build-id=sha1] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/--build-id=sha1]
+  implicit libs: [unwind;-l:libunwind.a;c;-l:libunwind.a]
+  implicit dirs: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/lib/arm-linux-ohos;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/arm-linux-ohos;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib/arm-linux-ohos;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/--build-id=sha1]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\build-tools\cmake\bin\ninja.exe cmTC_47bf0 && [1/2] Building CXX object CMakeFiles/cmTC_47bf0.dir/testCXXCompiler.cxx.o
+clang++: warning: argument unused during compilation: '--gcc-toolchain=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm' [-Wunused-command-line-argument]
+[2/2] Linking CXX executable cmTC_47bf0
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\build-tools\cmake\bin\ninja.exe cmTC_05317 && [1/2] Building CXX object CMakeFiles/cmTC_05317.dir/CMakeCXXCompilerABI.cpp.o
+OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin
+Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7, version 7.0
+clang++: warning: argument unused during compilation: '--gcc-toolchain=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm' [-Wunused-command-line-argument]
+ (in-process)
+ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\clang++.exe" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mframe-pointer=all -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1" -D __MUSL__ -isysroot C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -internal-isystem "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\include\\c++\\v1" -internal-isystem "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\include" -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include -Wformat -Werror=format-security -fdeprecated-macro -fdebug-compilation-dir "C:\\Users\\bhuva\\Desktop\\AppLib\\TensorFlowETS\\entry\\.cxx\\default\\default\\armeabi-v7a\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_05317.dir/CMakeCXXCompilerABI.cpp.o -x c++ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/build-tools/cmake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 10.0.1 based upon LLVM 10.0.1 default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin\..\include\c++\v1
+ C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\lib\clang\10.0.1\include
+ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos
+ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include
+End of search list.
+[2/2] Linking CXX executable cmTC_05317
+OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin
+Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7, version 7.0
+ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\ld.lld" --sysroot=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_05317 "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o" "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\c++\\" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\" --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_05317.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lc++abi -lunwind -lm "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a -lc "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o"
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/bin/../include/c++/v1]
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include]
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos]
+    add: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+  end of search list found
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/bin/../include/c++/v1] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/include/c++/v1]
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include]
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos]
+  collapse include dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+  implicit include dirs: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/include/c++/v1;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\build-tools\cmake\bin\ninja.exe cmTC_05317 && [1/2] Building CXX object CMakeFiles/cmTC_05317.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin]
+  ignore line: [Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7  version 7.0]
+  ignore line: [clang++: warning: argument unused during compilation: '--gcc-toolchain=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm' [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\clang++.exe" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mframe-pointer=all -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1" -D __MUSL__ -isysroot C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -internal-isystem "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\include\\c++\\v1" -internal-isystem "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\include" -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include -internal-externc-isystem C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include -Wformat -Werror=format-security -fdeprecated-macro -fdebug-compilation-dir "C:\\Users\\bhuva\\Desktop\\AppLib\\TensorFlowETS\\entry\\.cxx\\default\\default\\armeabi-v7a\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_05317.dir/CMakeCXXCompilerABI.cpp.o -x c++ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/build-tools/cmake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 10.0.1 based upon LLVM 10.0.1 default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin\..\include\c++\v1]
+  ignore line: [ C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\lib\clang\10.0.1\include]
+  ignore line: [ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos]
+  ignore line: [ C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_05317]
+  ignore line: [OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\bhuva\AppData\Local\OpenHarmony\Sdk\native\3.1.5.5\llvm\bin]
+  ignore line: [Found CUDA installation: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7  version 7.0]
+  link line: [ "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\ld.lld" --sysroot=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_05317 "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o" "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\c++\\" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\" "-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\" "-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\" --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_05317.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lc++abi -lunwind -lm "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a -lc "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a "C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o" "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o"]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\ld.lld] ==> ignore
+    arg [--sysroot=C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-arm.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_05317] ==> ignore
+    arg [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o] ==> ignore
+    arg [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o] ==> ignore
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o] ==> ignore
+    arg [-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\c++;-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos] ==> dir [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\c++;-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos]
+    arg [-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib;-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos;-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos;--build-id=sha1] ==> dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib;-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos;-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos;--build-id=sha1]
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [-lunwind] ==> lib [unwind]
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_05317.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lc++abi] ==> lib [c++abi]
+    arg [-lunwind] ==> lib [unwind]
+    arg [-lm] ==> lib [m]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a] ==> lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-lc] ==> lib [c]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a] ==> lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o] ==> ignore
+    arg [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o] ==> ignore
+  remove lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+  remove lib [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+  collapse library dir [C:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos\\c++] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/arm-linux-ohos/c++]
+  collapse library dir [-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\lib\\clang\\10.0.1\\lib\\arm-linux-ohos] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/lib/arm-linux-ohos]
+  collapse library dir [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib] ==> [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib]
+  collapse library dir [-LC:\\Users\\bhuva\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\..\\lib\\arm-linux-ohos] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/arm-linux-ohos]
+  collapse library dir [-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot\\usr\\lib\\arm-linux-ohos] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib/arm-linux-ohos]
+  collapse library dir [--build-id=sha1] ==> [C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/--build-id=sha1]
+  implicit libs: [unwind;c++;c++abi;unwind;m;-l:libunwind.a;c;-l:libunwind.a]
+  implicit dirs: [C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/arm-linux-ohos/c++;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/lib/arm-linux-ohos;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/arm-linux-ohos;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib/arm-linux-ohos;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/--build-id=sha1]
+  implicit fwks: []
+
+

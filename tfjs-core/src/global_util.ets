@@ -19,10 +19,26 @@
 // always resolve to the same global object regardless of how the module is
 // resolved.
 // tslint:disable-next-line:no-any
+
+export namespace globalNameSpacee {
+  export class User {
+    constructor(public name: string) {}
+  }
+
+  export const newUser = new User("Jonn");
+  let _tfGlobals: Map<string, any> = new Map();
+  let _tfengine = null;
+  // export {_tfGlobals};
+  // export {_tfengine};
+}
+
 let globalNameSpace: {_tfGlobals: Map<string, any>};
+var globalMap = new Map();
 // tslint:disable-next-line:no-any
 export function getGlobalNamespace(): {_tfGlobals: Map<string, any>} {
-  if (globalNameSpace == null) {
+  console.info('getGlobalNamespace ' + globalNameSpace);
+  if (globalNameSpace == null || globalNameSpace == undefined) {
+    // globalNameSpaceVar = globalNameSpace;
     // tslint:disable-next-line:no-any
     let ns: any;
     /*if (typeof (window) !== 'undefined') {
@@ -36,13 +52,40 @@ export function getGlobalNamespace(): {_tfGlobals: Map<string, any>} {
     } else {
       throw new Error('Could not find a global object');
     }*/
+    if (typeof globalThis !== 'undefined') {
+      ns = globalThis;
+    }
     globalNameSpace = ns;
+    // globalNameSpace = ns;
+    //globalNameSpace._tfGlobals =  new Map();
   }
   return globalNameSpace;
 }
 
 // tslint:disable-next-line:no-any
 function getGlobalMap(): Map<string, any> {
+  // const ns = globalNameSpace; // getGlobalNamespace();
+  //let gNameSpace: {_tfGlobals: Map<string, any>};
+  /*if (ns._tfGlobals == null) {
+    ns._tfGlobals = new Map();
+  }
+  return ns._tfGlobals;*/
+  /*if (gNameSpace._tfGlobals == null) {
+    gNameSpace._tfGlobals = new Map();
+  }*/
+  // return gNameSpace._tfGlobals;
+  // var ns = getGlobalNamespace();
+  /*if (ns._tfGlobals == null) {
+    ns._tfGlobals = new Map();
+  }*/
+  /*if (globalNameSpace == null) {
+    globalNameSpace._tfGlobals =  new Map();
+  }*/
+  // return globalMap;
+  /*if (globalNameSpace._tfGlobals == null) {
+    globalNameSpace._tfGlobals =  new Map();
+  }*/
+  // return globalNameSpace._tfGlobals;
   const ns = getGlobalNamespace();
   if (ns._tfGlobals == null) {
     ns._tfGlobals = new Map();

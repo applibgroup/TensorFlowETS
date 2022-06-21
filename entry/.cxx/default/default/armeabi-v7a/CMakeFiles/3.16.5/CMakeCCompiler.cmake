@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "D:/HMOS/SDK/900SDK/native/3.1.5.5/llvm/bin/clang.exe")
+set(CMAKE_C_COMPILER "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/bin/clang.exe")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "Clang")
 set(CMAKE_C_COMPILER_VERSION "10.0.1")
@@ -17,11 +17,11 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "D:/HMOS/SDK/900SDK/native/3.1.5.5/llvm/bin/llvm-ar.exe")
+set(CMAKE_AR "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/bin/llvm-ar.exe")
 set(CMAKE_C_COMPILER_AR "CMAKE_C_COMPILER_AR-NOTFOUND")
-set(CMAKE_RANLIB "D:/HMOS/SDK/900SDK/native/3.1.5.5/llvm/bin/llvm-ranlib.exe")
+set(CMAKE_RANLIB "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/bin/llvm-ranlib.exe")
 set(CMAKE_C_COMPILER_RANLIB "CMAKE_C_COMPILER_RANLIB-NOTFOUND")
-set(CMAKE_LINKER "D:/HMOS/SDK/900SDK/native/3.1.5.5/llvm/bin/ld.lld.exe")
+set(CMAKE_LINKER "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/bin/ld.lld.exe")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCC )
 set(CMAKE_C_COMPILER_LOADED 1)
@@ -70,7 +70,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "D:/HMOS/SDK/900SDK/native/3.1.5.5/llvm/lib/clang/10.0.1/include;D:/HMOS/SDK/900SDK/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos;D:/HMOS/SDK/900SDK/native/3.1.5.5/sysroot/usr/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/include;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include/arm-linux-ohos;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "unwind;-l:libunwind.a;c;-l:libunwind.a")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "D:/HMOS/SDK/900SDK/native/3.1.5.5/llvm/lib/clang/10.0.1/lib/arm-linux-ohos;D:/HMOS/SDK/900SDK/native/3.1.5.5/sysroot/usr/lib;C:/Users/Administrator/DevEcoStudioProjects/TensorFlowETS/entry/src/main/cpp/-LD:/HMOS/SDK/900SDK/native/3.1.5.5/llvm/lib/arm-linux-ohos;C:/Users/Administrator/DevEcoStudioProjects/TensorFlowETS/entry/src/main/cpp/-LD:/HMOS/SDK/900SDK/native/3.1.5.5/sysroot/usr/lib/arm-linux-ohos;C:/Users/Administrator/DevEcoStudioProjects/TensorFlowETS/entry/src/main/cpp/--build-id=sha1")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/clang/10.0.1/lib/arm-linux-ohos;C:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm/lib/arm-linux-ohos;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/-LC:/Users/bhuva/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot/usr/lib/arm-linux-ohos;C:/Users/bhuva/Desktop/AppLib/TensorFlowETS/entry/src/main/cpp/--build-id=sha1")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
