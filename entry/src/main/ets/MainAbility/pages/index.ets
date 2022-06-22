@@ -152,17 +152,61 @@ function showResults(imgElement, classes) {
 @Component
 struct Index {
   @State message: string = 'Hello World'
-
+  @State b: boolean = true
+  @State model: tf.Sequential = tf.sequential();
   build() {
     Row() {
       Column() {
         Text(this.message)
           .fontSize(50)
           .fontWeight(FontWeight.Bold)
+        Button("XOR")
           .onClick(() => {
-            mobilenetDemo();
-            // console.log("Test NAPI 2 + 3 = " + testNapi.add(2, 3));
-          })
+            console.log("Xor")
+            const xtrain = tf.tensor2d([[0, 0], [0, 1], [1, 0], [1, 1]]);
+            const ytrain = tf.tensor2d([[1,0], [0,1], [0,1], [1,0]]);
+            if(this.b==true) {
+              this.model.add(tf.layers.dense({ units: 3, activation: 'sigmoid', inputShape: [2] }));
+              this.model.add(tf.layers.dense({ units: 2, activation: 'softmax' }));
+              var learning_rate = 0.1
+              this.model.compile({loss: 'categoricalCrossentropy', optimizer: tf.train.adam(learning_rate)});
+              const history = this.model.fit(xtrain, ytrain, { epochs: 1000 })
+              console.log("fit is over")
+              this.b = false;
+            }
+            else{
+            const xt = tf.tensor2d([[1, 1]])
+            const p = this.model.predict(xt) as tf.Tensor;
+//            console.log(p.dataSync());
+            const values = p.dataSync();
+            const arr = Array.from(values);
+            console.log(""+arr);}
+//            console.log(values);
+//            console.log(arr);
+          }).margin('25px')
+        Button("Color Contrast")
+          .onClick(()=>{
+            console.log("Color Contrast")
+            const xtrain = tf.tensor([[0.03, 0.7,0.5], [0.16, 0.09,0.2], [0.5, 0.5,1.0]]);
+            const ytrain = tf.tensor([[1,0], [0,1], [0,1]]);
+            if(this.b==true) {
+              this.model.add(tf.layers.dense({ units: 3, activation: 'sigmoid', inputShape: [3] }));
+              this.model.add(tf.layers.dense({ units: 2, activation: 'softmax' }));
+              var learning_rate = 0.1
+              this.model.compile({loss: 'categoricalCrossentropy', optimizer: tf.train.adam(learning_rate)});
+              const history = this.model.fit(xtrain, ytrain, { epochs: 1000 })
+              console.log("fit is over")
+              this.b = false;
+            }
+            else{
+              const xt = tf.tensor([[0.9, 0.4, 0.0]])
+              const p = this.model.predict(xt) as tf.Tensor;
+              //            console.log(p.dataSync());
+              const values = p.dataSync();
+              const arr = Array.from(values);
+              console.log(""+arr);}
+
+        }).margin('25px')
       }
       .width('100%')
     }

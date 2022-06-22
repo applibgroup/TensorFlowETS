@@ -14,7 +14,7 @@
  * limitations under the License.
  * =============================================================================
  */
-import {DataType, keep, scalar, stack, Tensor, tidy, unstack, util} from '@ohos/tfjs-core';
+import {DataType, keep, scalar, stack, Tensor, tidy, unstack, util, Scalar,tensor} from '@ohos/tfjs-core';
 // tslint:disable-next-line: no-imports-from-dist
 import * as tfOps from '@ohos/tfjs-core/dist/ops/ops_for_converter';
 
@@ -66,7 +66,7 @@ export class HashTable {
    */
   tensorSize(): Tensor { //TODO
     // return tfOps.scalar(this.size(), 'int32');
-    return tfOps.scalar(this.size());
+    return tensor(this.size());
   }
 
   /**
