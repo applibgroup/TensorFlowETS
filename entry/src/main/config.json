@@ -55,7 +55,10 @@
           "type": "pageAbility"
         },
         "pages": [
-          "pages/index"
+          "pages/index",
+          "pages/Xor",
+          "pages/ColorContrast",
+          "pages/Abalone"
         ],
         "name": ".MainAbility",
         "window": {
