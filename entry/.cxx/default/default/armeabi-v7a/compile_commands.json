@@ -1,7 +1,0 @@
-[
-{
-  "directory": "C:/Users/HP/DevEcoStudioProjects/TensorFlowETS/entry/.cxx/default/default/armeabi-v7a",
-  "command": "C:\\Users\\HP\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\clang++.exe --target=arm-linux-ohos --gcc-toolchain=C:/Users/HP/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm --sysroot=C:/Users/HP/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot  -Dhello_EXPORTS -IC:/Users/HP/DevEcoStudioProjects/TensorFlowETS/entry/src/main/cpp -IC:/Users/HP/DevEcoStudioProjects/TensorFlowETS/entry/src/main/cpp/include  -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -march=armv7a   -D__MUSL__ -fPIC   -o CMakeFiles\\hello.dir\\hello.cpp.o -c C:\\Users\\HP\\DevEcoStudioProjects\\TensorFlowETS\\entry\\src\\main\\cpp\\hello.cpp",
-  "file": "C:\\Users\\HP\\DevEcoStudioProjects\\TensorFlowETS\\entry\\src\\main\\cpp\\hello.cpp"
-}
-]
