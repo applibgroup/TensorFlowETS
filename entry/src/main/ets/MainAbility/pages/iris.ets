@@ -113,8 +113,8 @@ struct Xor {
               const yvp = model.predict(xTest) as tf.Tensor;
               const train_res = tf.losses.absoluteDifference(yTrain, ytp);
               const val_res = tf.losses.absoluteDifference(yTest, yvp);
-              this.input =  "train_acc: " + train_res.dataSync();
-              this.output = "val_acc: " + val_res.dataSync();
+              this.input =  "train_loss: " + train_res.dataSync();
+              this.output = "val_loss: " + val_res.dataSync();
             }).margin('5px')
           Button("Predict")//Press to predict after training
             .onClick(() => {
