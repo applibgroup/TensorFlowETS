@@ -331,6 +331,10 @@ export function base64StringToArrayBuffer(str: string): ArrayBuffer {
   return Base64.getInstance().decode(str);
 }
 
+export function typedArrayToBuffer(array: Uint8Array): ArrayBuffer {
+  return array.buffer.slice(array.byteOffset, array.byteLength + array.byteOffset)
+}
+
 /**
  * Concatenate a number of ArrayBuffers into one.
  *
@@ -420,6 +424,7 @@ export async function getModelArtifactsForJSON(
     loadWeights: (weightsManifest: WeightsManifestConfig) => Promise<[
       /* weightSpecs */ WeightsManifestEntry[], /* weightData */ ArrayBuffer
     ]>): Promise<ModelArtifacts> {
+  console.info("getModelArtifactsForJSON");
   const modelArtifacts: ModelArtifacts = {
     modelTopology: modelJSON.modelTopology,
     format: modelJSON.format,
@@ -428,11 +433,14 @@ export async function getModelArtifactsForJSON(
   };
 
   if (modelJSON.trainingConfig != null) {
+    console.info("getModelArtifactsForJSON " + modelJSON.trainingConfig);
     modelArtifacts.trainingConfig = modelJSON.trainingConfig;
   }
   if (modelJSON.weightsManifest != null) {
+    console.info("modelJSON.weightsManifest " + modelJSON.weightsManifest);
     const [weightSpecs, weightData] =
         await loadWeights(modelJSON.weightsManifest);
+    console.info("modelJSON.weightsManifest done");
     modelArtifacts.weightSpecs = weightSpecs;
     modelArtifacts.weightData = weightData;
   }
@@ -446,6 +454,7 @@ export async function getModelArtifactsForJSON(
     modelArtifacts.modelInitializer = modelJSON.modelInitializer;
   }
 
+  console.info("getModelArtifactsForJSON done modelArtifacts " + modelArtifacts);
   return modelArtifacts;
 }
 

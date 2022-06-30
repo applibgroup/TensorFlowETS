@@ -9,7 +9,7 @@ import * as test_y from "./../../../resources/base/media/test_y.json";
 @Entry
 @Component
 struct Xor {
-  @State message: string = 'Color Contrast'
+  @State message: string = 'Abalone Rings'
 
   @State error: string = 'Test Error: '
   @State model: tf.Sequential = tf.sequential();

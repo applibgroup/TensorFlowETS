@@ -94,7 +94,7 @@ async function train(xTrain, yTrain, xTest, yTest){
 
 @Entry
 @Component
-struct Xor {
+struct Iris {
   @State message: string = 'IRIS Model'
   @State input: string = 'Input'
   @State output: string = 'Output'
