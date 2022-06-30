@@ -17,7 +17,7 @@
 
 import * as tf from '@ohos/tfjs-core';
 // tslint:disable-next-line: no-imports-from-dist
-import {ALL_ENVS, describeWithFlags} from '@ohos/tfjs-core/dist/jasmine_util';
+import {ALL_ENVS, describeWithFlags} from '@ohos/tfjs-core/src/jasmine_util';
 
 describeWithFlags('stft memory test', ALL_ENVS, () => {
   it('should have no mem leak', async () => {

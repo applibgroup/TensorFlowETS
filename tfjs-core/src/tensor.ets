@@ -494,7 +494,7 @@ export class Tensor<R extends Rank = Rank> {
    *
    * @doc {heading: 'Tensors', subheading: 'Classes'}
    */
-  toString(verbose = false): string {
+  toString(verbose = true): string { // TODO
     const vals = this.dataSync();
     return tensorToString(vals, this.shape, this.dtype, verbose);
   }

@@ -14,7 +14,7 @@
 
 import {memory, Tensor, test_util, util} from '@ohos/tfjs-core';
 // tslint:disable-next-line: no-imports-from-dist
-import {ALL_ENVS, describeWithFlags, registerTestEnv} from '@ohos/tfjs-core/dist/jasmine_util';
+import {ALL_ENVS, describeWithFlags, registerTestEnv} from '@ohos/tfjs-core/src/jasmine_util';
 
 import {ValueError} from '../errors';
 

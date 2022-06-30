@@ -14,13 +14,6 @@
  * limitations under the License.
  * =============================================================================
  */
-
-import '@ohos/tfjs-core';
-// tslint:disable-next-line:no-imports-from-dist
-import '@ohos/tfjs-core/src/public/chained_ops/register_all_chained_ops';
-import '@ohos/tfjs-backend-cpu';
-import '@ohos/tfjs-backend-webgl';
-
-// Import and run tests from data.
-// tslint:disable-next-line:no-require-imports
-require('./tests');
+/// <amd-module name="@tensorflow/tfjs-backend-cpu" />
+export * from './base';
+import './register_all_kernels';

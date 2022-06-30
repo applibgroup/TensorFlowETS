@@ -22,6 +22,7 @@ import {ByteChunkIterator} from '../iterators/byte_chunk_iterator';
 import {FileChunkIterator, FileChunkIteratorOptions} from '../iterators/file_chunk_iterator';
 import {FileElement} from '../types';
 import {isLocalPath} from '../util/source_util';
+import fileio from '@ohos.fileio';
 
 /**
  * Represents a file, blob, or Uint8Array readable as a stream of binary data
@@ -45,8 +46,17 @@ export class FileDataSource extends DataSource {
   async iterator(): Promise<ByteChunkIterator> {
     if (isLocalPath(this.input) && env().get('IS_NODE')) {
       // tslint:disable-next-line:no-require-imports
-      /*const fs = require('fs-extra');
+      /*const fs = require('fs-extra'); // TODO
       this.input = fs.readFileSync((this.input as string).slice(7));*/
+      let fd = fileio.openSync((this.input as string).slice(7), 0o2);
+      let buf = new ArrayBuffer(4096);
+      fileio.read(fd, buf, function (err, readOut) {
+        if (!err) {
+          console.log(String.fromCharCode.apply(null, new Uint8Array(readOut.buffer)))
+          this.input =  new Uint8Array(readOut.buffer);
+        }
+      });
+      // this.input = fileio.readSync((this.input as string).slice(7));
     }
     // TODO(kangyizhang): Add LocalFileChunkIterator to split local streaming
     // with file in browser.

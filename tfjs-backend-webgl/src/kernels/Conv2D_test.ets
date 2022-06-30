@@ -18,7 +18,7 @@
 import * as tf from '@ohos/tfjs-core';
 import {test_util} from '@ohos/tfjs-core';
 // tslint:disable-next-line: no-imports-from-dist
-import {ALL_ENVS, describeWithFlags} from '@ohos/tfjs-core/dist/jasmine_util';
+import {ALL_ENVS, describeWithFlags} from '@ohos/tfjs-core/src/jasmine_util';
 
 const {expectArraysClose} = test_util;
 

@@ -36,7 +36,7 @@ let globalNameSpace: {_tfGlobals: Map<string, any>};
 var globalMap = new Map();
 // tslint:disable-next-line:no-any
 export function getGlobalNamespace(): {_tfGlobals: Map<string, any>} {
-  console.info('getGlobalNamespace ' + globalNameSpace);
+  // console.info('getGlobalNamespace ' + globalNameSpace);
   if (globalNameSpace == null || globalNameSpace == undefined) {
     // globalNameSpaceVar = globalNameSpace;
     // tslint:disable-next-line:no-any

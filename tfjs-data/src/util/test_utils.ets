@@ -17,7 +17,7 @@
  */
 
 // tslint:disable-next-line: no-imports-from-dist
-import {ALL_ENVS, BROWSER_ENVS, describeWithFlags, NODE_ENVS, registerTestEnv} from '@ohos/tfjs-core/dist/jasmine_util';
+import {ALL_ENVS, BROWSER_ENVS, describeWithFlags, NODE_ENVS, registerTestEnv} from '@ohos/tfjs-core/src/jasmine_util';
 
 // Provide fake video stream
 export function setupFakeVideoStream() {

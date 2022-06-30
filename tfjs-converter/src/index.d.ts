@@ -1,6 +1,7 @@
+/// <amd-module name="@tensorflow/tfjs-converter" />
 /**
  * @license
- * Copyright 2020 Google LLC. All Rights Reserved.
+ * Copyright 2018 Google LLC. All Rights Reserved.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -14,13 +15,9 @@
  * limitations under the License.
  * =============================================================================
  */
-
-import '@ohos/tfjs-core';
-// tslint:disable-next-line:no-imports-from-dist
-import '@ohos/tfjs-core/src/public/chained_ops/register_all_chained_ops';
-import '@ohos/tfjs-backend-cpu';
-import '@ohos/tfjs-backend-webgl';
-
-// Import and run tests from data.
-// tslint:disable-next-line:no-require-imports
-require('./tests');
+import './flags';
+export { IAttrValue, INameAttrList, INodeDef, ITensor, ITensorShape } from './data/compiled_api';
+export { GraphModel, loadGraphModel, loadGraphModelSync } from './executor/graph_model';
+export { deregisterOp, registerOp } from './operations/custom_op/register';
+export { GraphNode, OpExecutor } from './operations/types';
+export { version as version_converter } from './version';

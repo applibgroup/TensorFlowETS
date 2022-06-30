@@ -240,6 +240,7 @@ export async function loadLayersModelInternal(
   }
   if (typeof pathOrIOHandler === 'string') {
     const handlers = io.getLoadHandlers(pathOrIOHandler, options);
+    console.info('loadLayersModelInternal handlers.length ...' + handlers.length)
     if (handlers.length === 0) {
       // For backward compatibility: if no load handler can be found,
       // assume it is a relative http path.
@@ -296,11 +297,12 @@ export async function loadLayersModelFromIOHandler(
           convertPythonicToTs(modelTopology) as serialization.ConfigDict,
           customObjects, fastWeightInit) as LayersModel;
 
-  const trainingConfig = artifacts.trainingConfig as TrainingConfig;
-  if (trainingConfig != null) {
-    model.loadTrainingConfig(trainingConfig);
+  const trainingConfig = artifacts.trainingConfig;
+  if (trainingConfig != null && trainingConfig != undefined) {
+    const trainConfig = artifacts.trainingConfig as TrainingConfig;
+    model.loadTrainingConfig(trainConfig);
   }
-  if (artifacts.userDefinedMetadata != null) {
+  if (artifacts.userDefinedMetadata != null && artifacts.userDefinedMetadata != undefined) {
     model.setUserDefinedMetadata(artifacts.userDefinedMetadata);
   }
 

@@ -1,15 +1,13 @@
 {
-  "name": "@ohos/tfjs-core",
+  "name": "@ohos/tfjs-models",
   "description": "Hardware-accelerated JavaScript library for machine intelligence",
   "ohos": {
     "org": ""
   },
   "version": "1.0.0",
   "main": "src/index.ets",
-  "types": "./src/index.d.ts",
   "repository": {},
   "license": "ISC",
   "dependencies": {
-    "@ohos/tfjs-models": "file:../tfjs-models"
   }
 }

@@ -6,7 +6,7 @@
   },
   "version": "1.0.0",
   "main": "src/index.ets",
-  "types": "",
+  "types": "./src/index.d.ts",
   "repository": {},
   "license": "ISC",
   "dependencies": {

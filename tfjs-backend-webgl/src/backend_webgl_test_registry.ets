@@ -16,7 +16,7 @@
  */
 
 // tslint:disable-next-line: no-imports-from-dist
-import {Constraints, registerTestEnv} from '@ohos/tfjs-core/dist/jasmine_util';
+import {Constraints, registerTestEnv} from '@ohos/tfjs-core/src/jasmine_util';
 
 export const WEBGL_ENVS: Constraints = {
   predicate: testEnv => testEnv.backendName === 'webgl'

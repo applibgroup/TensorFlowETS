@@ -86,6 +86,6 @@ export class PlatformNode implements Platform {
   }
 }
 
-if (env().get('IS_NODE') && !env().get('IS_BROWSER')) {
+// if (env().get('IS_NODE') && !env().get('IS_BROWSER')) { TODO
   env().setPlatform('node', new PlatformNode());
-}
+//}

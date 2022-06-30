@@ -19,7 +19,7 @@
 import './index';
 
 // tslint:disable-next-line: no-imports-from-dist
-import {setTestEnvs} from '@ohos/tfjs-core/dist/jasmine_util';
+import {setTestEnvs} from '@ohos/tfjs-core/src/jasmine_util';
 import jasmine from 'jasmine';
 
 Error.stackTraceLimit = Infinity;

@@ -11,7 +11,7 @@
 import './flags_layers';
 import '@ohos/tfjs-core';
 // tslint:disable-next-line: no-imports-from-dist
-import '@ohos/tfjs-core/dist/register_all_gradients';
+import '@ohos/tfjs-core/src/register_all_gradients';
 
 // This file lists all exports of TensorFlow.js Layers
 

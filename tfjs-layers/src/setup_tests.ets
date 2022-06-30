@@ -19,14 +19,14 @@
 import './flags_layers';
 import '@ohos/tfjs-core';
 // tslint:disable-next-line:no-imports-from-dist
-import '@ohos/tfjs-core/dist/public/chained_ops/register_all_chained_ops';
+import '@ohos/tfjs-core/src/public/chained_ops/register_all_chained_ops';
 // tslint:disable-next-line: no-imports-from-dist
-import '@ohos/tfjs-core/dist/register_all_gradients';
+import '@ohos/tfjs-core/src/register_all_gradients';
 import '@ohos/tfjs-backend-cpu';
 import '@ohos/tfjs-backend-webgl';
 
 // tslint:disable-next-line: no-imports-from-dist
-import {parseTestEnvFromKarmaFlags, registerTestEnv, setTestEnvs, TEST_ENVS} from '@ohos/tfjs-core/dist/jasmine_util';
+import {parseTestEnvFromKarmaFlags, registerTestEnv, setTestEnvs, TEST_ENVS} from '@ohos/tfjs-core/src/jasmine_util';
 
 registerTestEnv({
   name: 'webgl1',

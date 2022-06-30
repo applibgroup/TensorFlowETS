@@ -18,7 +18,7 @@
 import * as tf from '@ohos/tfjs-converter';
 import {registerBackend, removeBackend, test_util, util} from '@ohos/tfjs-converter';
 // tslint:disable-next-line:no-imports-from-dist
-import {ALL_ENVS, BROWSER_ENVS, describeWithFlags} from '@ohos/tfjs-core/dist/jasmine_util';
+import {ALL_ENVS, BROWSER_ENVS, describeWithFlags} from '@ohos/tfjs-core/src/jasmine_util';
 
 import {init, resetWasmPath} from './backend_wasm';
 import {BackendWasm, setWasmPath, setWasmPaths} from './index';

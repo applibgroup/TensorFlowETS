@@ -16,7 +16,7 @@
  */
 
 // tslint:disable-next-line: no-imports-from-dist
-import {describeWithFlags} from '@ohos/tfjs-core/dist/jasmine_util';
+import {describeWithFlags} from '@ohos/tfjs-core/src/jasmine_util';
 import {WEBGL_ENVS} from './backend_webgl_test_registry';
 import {dotify, getLogicalCoordinatesFromFlatIndex} from './shader_compiler_util';
 

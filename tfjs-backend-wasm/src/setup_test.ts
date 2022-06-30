@@ -18,12 +18,12 @@
 // Import core for side effects (e.g. flag registration)
 import '@ohos/tfjs-converter';
 // tslint:disable-next-line:no-imports-from-dist
-import '@ohos/tfjs-core/dist/public/chained_ops/register_all_chained_ops';
+import '@ohos/tfjs-core/src/public/chained_ops/register_all_chained_ops';
 // tslint:disable-next-line: no-imports-from-dist
-import '@ohos/tfjs-core/dist/register_all_gradients';
+import '@ohos/tfjs-core/src/register_all_gradients';
 
 // tslint:disable-next-line: no-imports-from-dist
-import {setTestEnvs, setupTestFilters, TestFilter} from '@ohos/tfjs-core/dist/jasmine_util';
+import {setTestEnvs, setupTestFilters, TestFilter} from '@ohos/tfjs-core/src/jasmine_util';
 
 setTestEnvs([{name: 'test-wasm', backendName: 'wasm', isDataSync: true}]);
 
@@ -404,4 +404,4 @@ setupTestFilters(TEST_FILTERS, customInclude);
 // Import and run all the tests from core.
 // tslint:disable-next-line:no-imports-from-dist
 // tslint:disable-next-line:no-require-imports
-require('@ohos/tfjs-core/dist/tests');
+require('@ohos/tfjs-core/src/tests');

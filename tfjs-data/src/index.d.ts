@@ -1,6 +1,6 @@
 /**
  * @license
- * Copyright 2020 Google LLC. All Rights Reserved.
+ * Copyright 2018 Google LLC. All Rights Reserved.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -14,13 +14,12 @@
  * limitations under the License.
  * =============================================================================
  */
-
-import '@ohos/tfjs-core';
-// tslint:disable-next-line:no-imports-from-dist
-import '@ohos/tfjs-core/src/public/chained_ops/register_all_chained_ops';
-import '@ohos/tfjs-backend-cpu';
-import '@ohos/tfjs-backend-webgl';
-
-// Import and run tests from data.
-// tslint:disable-next-line:no-require-imports
-require('./tests');
+/// <amd-module name="@tensorflow/tfjs-data" />
+export { array, Dataset, zip } from './dataset';
+export { CSVDataset } from './datasets/csv_dataset';
+export { TextLineDataset } from './datasets/text_line_dataset';
+export { csv, func, generator, microphone, webcam } from './readers';
+export { FileDataSource } from './sources/file_data_source';
+export { URLDataSource } from './sources/url_data_source';
+export { ColumnConfig, MicrophoneConfig, WebcamConfig } from './types';
+export { version as version_data } from './version';

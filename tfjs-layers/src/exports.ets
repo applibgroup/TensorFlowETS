@@ -229,6 +229,7 @@ export function sequential(config?: SequentialArgs): Sequential {
 export function loadLayersModel(
     pathOrIOHandler: string|io.IOHandler,
     options?: io.LoadOptions): Promise<LayersModel> {
+  console.info('loadLayersModel...')
   if (options == null) {
     options = {};
   }

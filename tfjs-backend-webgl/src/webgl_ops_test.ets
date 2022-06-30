@@ -19,7 +19,7 @@ import {Rank, Tensor2D, Tensor3D, Tensor4D, test_util} from '@ohos/tfjs-core';
 const expectArraysClose = test_util.expectArraysClose;
 const expectArraysEqual = test_util.expectArraysEqual;
 // tslint:disable-next-line: no-imports-from-dist
-import {describeWithFlags} from '@ohos/tfjs-core/dist/jasmine_util';
+import {describeWithFlags} from '@ohos/tfjs-core/src/jasmine_util';
 import * as tf from '@ohos/tfjs-core';
 
 import {WebGLMemoryInfo} from './backend_webgl';
