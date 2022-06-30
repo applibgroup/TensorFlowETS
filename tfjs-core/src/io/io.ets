@@ -19,6 +19,7 @@
 // registered.
 import './indexed_db';
 import './local_storage';
+import './res_system';
 
 import {browserFiles} from './browser_files';
 import {browserHTTPRequest, http, isHTTPScheme} from './http';

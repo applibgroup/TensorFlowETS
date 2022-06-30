@@ -58,7 +58,11 @@
           "pages/index",
           "pages/Xor",
           "pages/ColorContrast",
-          "pages/Abalone"
+          "pages/Abalone",
+          "pages/AbaloneLoad",
+          "pages/iris",
+          "pages/Iris_classification",
+          "pages/mnist"
         ],
         "name": ".MainAbility",
         "window": {
