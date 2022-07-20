@@ -20,7 +20,7 @@
  *
  * Uses [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API).
  */
-import * as httpohos from '@ohos.net.http';
+import httpohos from '@ohos.net.http';
 import {env} from '../environment';
 
 import {assert} from '../util';
@@ -76,13 +76,13 @@ export class HTTPRequest implements IOHandler {
               `(actual length is ${path.length}).`);
     }
     this.path = path;
-
-    /*if (loadOptions.requestInit != null &&
+ // console.info(JSON.stringify)
+    if (loadOptions.requestInit != null &&
         loadOptions.requestInit.body != null) {
       throw new Error(
           'requestInit is expected to have no pre-existing body, but has one.');
     }
-    this.requestInit = loadOptions.requestInit || {};*/
+    this.requestInit = loadOptions.requestInit || {};
   }
 
   async save(modelArtifacts: ModelArtifacts): Promise<SaveResult> {
@@ -93,7 +93,7 @@ export class HTTPRequest implements IOHandler {
     }
     // let httpRequest = http.createHttp();
 
-    const init = Object.assign({method: httpohos.default.RequestMethod.POST}, this.requestInit);
+    const init = Object.assign({method: httpohos.RequestMethod.POST}, this.requestInit);
     // init.body = new FormData();
 
     const weightsManifest: WeightsManifestConfig = [{
@@ -170,36 +170,48 @@ export class HTTPRequest implements IOHandler {
    * @returns The loaded model artifacts (if loading succeeds).
    */
   async load(): Promise<ModelArtifacts> {
-    const modelConfigRequest = await this.fetch(this.path, this.requestInit);
-
-    if (!modelConfigRequest.ok) {
-      throw new Error(
-          `Request to ${this.path} failed with status code ` +
-          `${modelConfigRequest.status}. Please verify this URL points to ` +
-          `the model JSON of the model to load.`);
-    }
+    let path2=`https://jsonplaceholder.typicode.com/users`
+    console.info(this.path)
+    let httpreqst=httpohos.createHttp();
+    let modelConfigRequest;
+    await httpreqst.request(this.path,{method:httpohos.RequestMethod.GET,
+      header:{'Content-Type': 'application/json'}}).then(val=>{
+      modelConfigRequest=val
+    })
+//    await axios.get(path2).then(res=>{
+//      modelConfigRequest=res;
+//    });
+    console.info(JSON.stringify(modelConfigRequest))
+//    if (!modelConfigRequest.ok) {
+//      throw new Error(
+//          `Request to ${this.path} failed with status code ` +
+//          `${modelConfigRequest.status}. Please verify this URL points to ` +
+//          `the model JSON of the model to load.`);
+//    }
     let modelJSON: ModelJSON;
-    try {
-      modelJSON = await modelConfigRequest.json();
-    } catch (e) {
-      let message = `Failed to parse model JSON of response from ${this.path}.`;
-      // TODO(nsthorat): Remove this after some time when we're comfortable that
-      // .pb files are mostly gone.
-      if (this.path.endsWith('.pb')) {
-        message += ' Your path contains a .pb file extension. ' +
-            'Support for .pb models have been removed in TensorFlow.js 1.0 ' +
-            'in favor of .json models. You can re-convert your Python ' +
-            'TensorFlow model using the TensorFlow.js 1.0 conversion scripts ' +
-            'or you can convert your.pb models with the \'pb2json\'' +
-            'NPM script in the tensorflow/tfjs-converter repository.';
-      } else {
-        message += ' Please make sure the server is serving valid ' +
-            'JSON for this request.';
-      }
-      throw new Error(message);
-    }
-
+//    try {
+//      modelJSON = await modelConfigRequest.json();
+//    } catch (e) {
+//      let message = `Failed to parse model JSON of response from ${this.path}.`;
+//      // TODO(nsthorat): Remove this after some time when we're comfortable that
+//      // .pb files are mostly gone.
+//      if (this.path.endsWith('.pb')) {
+//        message += ' Your path contains a .pb file extension. ' +
+//            'Support for .pb models have been removed in TensorFlow.js 1.0 ' +
+//            'in favor of .json models. You can re-convert your Python ' +
+//            'TensorFlow model using the TensorFlow.js 1.0 conversion scripts ' +
+//            'or you can convert your.pb models with the \'pb2json\'' +
+//            'NPM script in the tensorflow/tfjs-converter repository.';
+//      } else {
+//        message += ' Please make sure the server is serving valid ' +
+//            'JSON for this request.';
+//      }
+//      console.info(message)
+//      throw new Error(message);
+//    }
+    modelJSON=modelConfigRequest.result
     // We do not allow both modelTopology and weightsManifest to be missing.
+    console.log(JSON.stringify(modelJSON))
     const modelTopology = modelJSON.modelTopology;
     const weightsManifest = modelJSON.weightsManifest;
     if (modelTopology == null && weightsManifest == null) {
@@ -207,9 +219,9 @@ export class HTTPRequest implements IOHandler {
           `The JSON from HTTP path ${this.path} contains neither model ` +
           `topology or manifest for weights.`);
     }
-
+    console.info('hi')
     return getModelArtifactsForJSON(
-        modelJSON, (weightsManifest) => this.loadWeights(weightsManifest));
+       modelJSON, (weightsManifest) => this.loadWeights(weightsManifest));
   }
 
   private async loadWeights(weightsManifest: WeightsManifestConfig):

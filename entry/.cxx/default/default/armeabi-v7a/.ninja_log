@@ -1,0 +1,6 @@
+# ninja log v5
+1	389	6787214516991010	CMakeFiles/hello.dir/hello.cpp.o	388380c87138115a
+391	2275	6787214535936689	D:/Huawei/TensorFlowETS-main/entry/build/default/intermediates/cmake/default/obj/armeabi-v7a/libhello.so	df0048f6cbf735fa
+5	1336	6788316866502072	D:/Huawei/TensorFlowETS-main/entry/build/default/intermediates/cmake/default/obj/armeabi-v7a/libhello.so	df0048f6cbf735fa
+11	1992	6800051371502177	D:/Huawei/TensorFlowETS-main/entry/build/default/intermediates/cmake/default/obj/armeabi-v7a/libhello.so	df0048f6cbf735fa
+4	1375	6800477367733085	D:/Huawei/TensorFlowETS-main/entry/build/default/intermediates/cmake/default/obj/armeabi-v7a/libhello.so	df0048f6cbf735fa

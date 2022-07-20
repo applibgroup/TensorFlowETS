@@ -189,9 +189,10 @@ export class NodeFileSystem implements IOHandler {
     console.info("res loadJSONModel " + this.path);
 //    const path = "./common" + this.path + "_model.json"as string;
 
-    let myData = await import("./common" + this.path + "_model.json");
+    let myData = await import("./common/" + this.path + "/model.json");
     // let myData = await import('@ohos/tfjs-models/models/abalone/model.json');
     console.info("myData " + myData);
+
     let data = JSON.parse((JSON.stringify(myData)));
     console.info(data.format);
 
@@ -208,15 +209,16 @@ export class NodeFileSystem implements IOHandler {
 
     return getModelArtifactsForJSON(
       data,
-      (weightsManifest) => this.loadWeights(weightsManifest, ""));
+      (weightsManifest) => this.loadWeightsAsArrayBuffer(weightsManifest));
   }
 
   protected async loadJSONModell(): Promise<ModelArtifacts> {
     console.info("res loadJSONModel " + this.path);
 //    const path = "./common" + this.path + "_model.json"as string;
     return new Promise((resolve, reject) => {
-      import("./common" + this.path + "_model.json").then(({default: myData}) => {
+      import("./common/" + this.path + "/model.json").then(({default: myData}) => {
         console.info("myData " + myData);
+        console.info("./common/" + this.path + "/model.json")
         Promise.resolve(JSON.parse((JSON.stringify(myData))))
           .then(data => {
             /*console.info(data);
@@ -241,7 +243,7 @@ export class NodeFileSystem implements IOHandler {
 
             return getModelArtifactsForJSON(
               data,
-              (weightsManifest) => this.loadWeights(weightsManifest, ""));
+              (weightsManifest) => this.loadWeightsAsArrayBuffer(weightsManifest));
           })
       });
     });
@@ -287,7 +289,7 @@ export class NodeFileSystem implements IOHandler {
 
     // let jsonOfWeights = await import('./../common/weights.json');
     // let jsonOfWeights = await import('@ohos/tfjs-models/models/abalone/weights.json');
-    let jsonOfWeights = await import("./common" + this.path + "_weights.json");
+    let jsonOfWeights = await import("./common/" + this.path + "_weights.json");
     let jsonObj = JSON.parse(JSON.stringify(jsonOfWeights))
     let jsonArray = []
     for (var item in jsonObj) {
@@ -303,20 +305,20 @@ export class NodeFileSystem implements IOHandler {
     // return [weightSpecs, concatenateArrayBuffers(buffers)];
   }
 
-  private async loadWeightss(
-      weightsManifest: WeightsManifestConfig,
-      path: string): Promise<[WeightsManifestEntry[], ArrayBuffer]> {
+  private async loadWeightsAsArrayBuffer(
+      weightsManifest: WeightsManifestConfig): Promise<[WeightsManifestEntry[], ArrayBuffer]> {
     // const dirName = dirname(path);
     const buffers: ArrayBuffer[] = [];
     const weightSpecs: WeightsManifestEntry[] = [];
+    const bytelen=await import("./common/"+this.path+"/bytelen.json")
     for (const group of weightsManifest) {
       for (const path of group.paths) {
         /*const weightFilePath = join(dirName, path);
         const buffer = await readFile(weightFilePath)
                            .catch(doesNotExistHandler('Weight file'));*/
-        const weightFilePath = "/common/weights.bin";
+        const weightFilePath = "/common/"+this.path+"/"+path;
         let fd = fileio.openSync(weightFilePath, 0o2);
-        let buf = new ArrayBuffer(4096);
+        let buf = new ArrayBuffer(bytelen[path]);
         await fileio.read(fd, buf)
           .catch(doesNotExistHandler('Weight file'));
         buffers.push(buf);
@@ -400,7 +402,7 @@ export const resSystemRouter: IORouter = (path: string|string[]) => {
       return fileSystem(
       path.slice(NodeFileSystem.URL_SCHEME.length));
     } else {
-      console.info("resSystemRouter returning null");
+      console.info("resSystemRouter returning nulll");
       return null;
     }
 };
