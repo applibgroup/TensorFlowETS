@@ -19,7 +19,7 @@
 // registered.
 import './indexed_db';
 import './local_storage';
-import './res_system';
+import {fileSystem} from './res_system';
 
 import {browserFiles} from './browser_files';
 import {browserHTTPRequest, http, isHTTPScheme} from './http';
@@ -31,7 +31,7 @@ import {loadWeights, weightsLoaderFactory} from './weights_loader';
 
 export {copyModel, listModels, moveModel, removeModel} from './model_management';
 export {
-  browserFiles,
+ // browserFiles,
   browserHTTPRequest,
   concatenateArrayBuffers,
   decodeWeights,
@@ -67,4 +67,5 @@ export {
   WeightsManifestEntry,
   withSaveHandler,
   withSaveHandlerSync,
+  fileSystem
 };

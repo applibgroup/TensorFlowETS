@@ -1,10 +1,11 @@
 import testNapi from "libhello.so"
 import * as tf from "@ohos/tfjs"
 import router from '@system.router'
-// import * as tf from "@ohos/tfjs-js"
+import axios from 'axios'
 import { IMAGENET_CLASSES } from '../common/imagenet_classes';
 import image from '@ohos.multimedia.image';
 import resourceManager from '@ohos.resourceManager';
+import imageClassifier from "../ml5-library-main/src/ImageClassifier";
 
 const MOBILENET_MODEL_PATH =
   // tslint:disable-next-line:max-line-length
@@ -149,6 +150,14 @@ function showResults(imgElement, classes) {
     console.info('showResults className' + classes[i].probability.toFixed(3));
   }
 }
+function modelLoaded() {
+  console.log('Model Loaded!');
+}
+function gotResults(err, results) {
+  console.info(results);
+  console.info(err);
+  // all the amazing things you'll add
+}
 
 @Entry
 @Component
@@ -190,6 +199,28 @@ struct Index {
           .onClick(() => {
             router.push({ uri: 'pages/AbaloneLoad' })
           })
+        Button("mobilenet") // Predicts the text color given the background
+          .onClick(async ()=>{
+            const cls=await imageClassifier("MobileNet",modelLoaded)
+            let arr=[[[2,3,6],[4,5,6],[1,2,3]],[[2,3,6],[4,5,6],[1,2,3]],[[2,3,6],[4,5,6],[1,2,3]]]
+            let out=await cls.predict(arr)
+            console.info("done")
+            this.message=out[0].label
+            console.info(JSON.stringify(out[0].label))
+          })
+
+//        Button("press")
+//        .onClick(async ()=>{
+//          let hreq=http.createHttp()
+//          await hreq.request(`https://jsonplaceholder.typicode.com/users`,{method:http.RequestMethod.GET,
+//            header:{'Content-Type': 'application/json'}}).then(res=>{
+//            console.info(res.result[0].name)
+//          })
+////          await axios.get(`https://jsonplaceholder.typicode.com/users`).then(res=>{
+////            console.info('fetched')
+////            this.message=res.data[0].name
+////          })
+//        })
       }
       .width('100%')
     }

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "D:/Huawei/TensorFlowETS-main/entry/.cxx/default/default/armeabi-v7a",
+  "command": "C:\\Users\\viswa\\AppData\\Local\\OpenHarmony\\Sdk\\native\\3.1.5.5\\llvm\\bin\\clang++.exe --target=arm-linux-ohos --gcc-toolchain=C:/Users/viswa/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/llvm --sysroot=C:/Users/viswa/AppData/Local/OpenHarmony/Sdk/native/3.1.5.5/sysroot  -Dhello_EXPORTS -ID:/Huawei/TensorFlowETS-main/entry/src/main/cpp -ID:/Huawei/TensorFlowETS-main/entry/src/main/cpp/include  -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -march=armv7a   -D__MUSL__ -fPIC   -o CMakeFiles\\hello.dir\\hello.cpp.o -c D:\\Huawei\\TensorFlowETS-main\\entry\\src\\main\\cpp\\hello.cpp",
+  "file": "D:\\Huawei\\TensorFlowETS-main\\entry\\src\\main\\cpp\\hello.cpp"
+}
+]

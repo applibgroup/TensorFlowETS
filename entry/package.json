@@ -13,6 +13,7 @@
   "repository": {},
   "version": "1.0.0",
   "dependencies": {
-    "@ohos/tfjs-core": "file:../tfjs-core"
+    "@ohos/tfjs-core": "file:../tfjs-core",
+    "axios": "^0.27.2"
   }
 }

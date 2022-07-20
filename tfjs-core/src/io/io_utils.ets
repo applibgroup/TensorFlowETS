@@ -117,6 +117,12 @@ export function decodeWeights(
   const out: NamedTensorMap = {};
   let float16Decode: (buffer: Uint16Array) => Float32Array | undefined;
   let offset = 0;
+  let x=0
+  for (const spec of specs) {
+   // console.info('spec info:'+JSON.stringify(sizeFromShape(spec.shape))+' '+JSON.stringify(spec.dtype))
+    x+=sizeFromShape(spec.shape)
+  }
+  //console.info(JSON.stringify(x))
   for (const spec of specs) {
     const name = spec.name;
     const dtype = spec.dtype;
@@ -125,6 +131,7 @@ export function decodeWeights(
     let values: TypedArray|string[]|Uint8Array[];
 
     if ('quantization' in spec) {
+
       const quantization = spec.quantization;
       if (quantization.dtype === 'uint8' || quantization.dtype === 'uint16') {
         if (!('min' in quantization && 'scale' in quantization)) {
@@ -195,6 +202,7 @@ export function decodeWeights(
         offset += byteLength;
       }
     } else {
+
       const dtypeFactor = DTYPE_VALUE_SIZE_MAP[dtype];
       const byteBuffer = buffer.slice(offset, offset + size * dtypeFactor);
 
@@ -212,6 +220,7 @@ export function decodeWeights(
           real[i] = values[i * 2];
           image[i] = values[i * 2 + 1];
         }
+
         const realTensor = tensor(real, shape, 'float32');
         const imageTensor = tensor(image, shape, 'float32');
         out[name] = complex(realTensor, imageTensor);

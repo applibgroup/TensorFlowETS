@@ -110,17 +110,21 @@ export class GraphModel<ModelURL extends Url = string|io.IOHandler>
       this.handler = io.browserHTTPRequest(path as string, this.loadOptions) as
       IOHandler;
     } else {
+
       const handlers = io.getLoadHandlers(path as string, this.loadOptions);
       if (handlers.length === 0) {
         // For backward compatibility: if no load handler can be found,
         // assume it is a relative http path.
+        console.info('no handler')
         handlers.push(io.browserHTTPRequest(path as string, this.loadOptions));
+       // handlers.push(io.fileSystem(path as string));
       } else if (handlers.length > 1) {
         throw new Error(
             `Found more than one (${handlers.length}) load handlers for ` +
             `URL '${[path]}'`);
       }
-      this.handler = handlers[0] as IOHandler;
+      console.info(JSON.stringify(handlers[0]))
+      this.handler = handlers[0]  as IOHandler;
     }
   }
 
@@ -140,12 +144,23 @@ export class GraphModel<ModelURL extends Url = string|io.IOHandler>
 
     type Result = IOHandler extends io.IOHandlerSync ? boolean
       : Promise<boolean>;
-
-    const loadResult = this.handler.load() as ReturnType<IOHandler['load']>;
+    const loadResult = this.handler.load() // as ReturnType<IOHandler['load']>;
+    console.info(JSON.stringify(loadResult))
     if (util.isPromise(loadResult)) {
       return loadResult.then(artifacts => this.loadSync(artifacts)) as Result;
     }
-
+    return this.loadSync(loadResult) as Result;
+  }
+  loadModel(){
+    type IOHandler = UrlIOHandler<ModelURL>;
+    type Result = IOHandler extends io.IOHandlerSync ? boolean
+      : Promise<boolean>;
+    const handler=io.fileSystem(this.modelUrl as string)
+    let loadResult=handler.load()
+    console.info(JSON.stringify(loadResult))
+    if (util.isPromise(loadResult)) {
+      return loadResult.then(artifacts => this.loadSync(artifacts)) as Result;
+    }
     return this.loadSync(loadResult) as Result;
   }
 
@@ -158,7 +173,6 @@ export class GraphModel<ModelURL extends Url = string|io.IOHandler>
   loadSync(artifacts: io.ModelArtifacts) {
     this.artifacts = artifacts;
     const graph = this.artifacts.modelTopology as tensorflow.IGraphDef;
-
     let signature;
     if (this.artifacts.userDefinedMetadata != null &&
         this.artifacts.userDefinedMetadata.signature != null) {
@@ -169,17 +183,22 @@ export class GraphModel<ModelURL extends Url = string|io.IOHandler>
       signature = this.artifacts.signature;
     }
     this.signature = signature;
-
     this.version = `${graph.versions.producer}.${graph.versions.minConsumer}`;
-    const weightMap =
-        io.decodeWeights(this.artifacts.weightData, this.artifacts.weightSpecs);
+    console.info(this.version)
+    try {
+      const weightMap =
+      io.decodeWeights(this.artifacts.weightData, this.artifacts.weightSpecs);
+    }
+    catch(err){
+      console.info(err)
+    }
+    const weightMap =io.decodeWeights(this.artifacts.weightData, this.artifacts.weightSpecs);
     this.executor = new GraphExecutor(
         OperationMapper.Instance.transformGraph(graph, this.signature));
     this.executor.weightMap = this.convertTensorMapToTensorsMap(weightMap);
     // Attach a model-level resourceManager to each executor to share resources,
     // such as `HashTable`.
     this.executor.resourceManager = this.resourceManager;
-
     if (artifacts.modelInitializer != null &&
         (artifacts.modelInitializer as tensorflow.IGraphDef).node != null) {
       const initializer =
@@ -462,12 +481,16 @@ export async function loadGraphModel(
   if (options == null) {
     options = {};
   }
-
-  if (options.fromTFHub && typeof modelUrl === 'string') {
+  if (options.fromTFHub && typeof modelUrl === 'string' && modelUrl!='mobilenet_v2') {
     modelUrl = getTFHubUrl(modelUrl);
   }
+
   const model = new GraphModel(modelUrl, options);
-  await model.load();
+  if(modelUrl==='mobilenet_v2')
+    await model.loadModel();
+  else
+    await model.load();
+
   return model;
 }
 
